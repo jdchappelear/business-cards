@@ -7,6 +7,8 @@ import { BusinesscardComponent } from './businesscard/businesscard.component';
 import { BusinesscardsComponent } from './businesscards/businesscards.component';
 import { LoginComponent } from './login/login.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { SignupComponent } from './auth/signup/signup.component';
+import { SigninComponent } from './auth/signin/signin.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { NotfoundComponent } from './notfound/notfound.component';
     BusinesscardComponent,
     BusinesscardsComponent,
     LoginComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    SignupComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,
